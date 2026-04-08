@@ -49,7 +49,7 @@
 		</PresentationProperties>
 		<ModelTimeProperties>
 			<StopOption>Never</StopOption>
-			<InitialDate>1775433600000</InitialDate>
+			<InitialDate>1775001600000</InitialDate>
 			<InitialTime>0.0</InitialTime>
 			<FinalDate>1778025600000</FinalDate>
 			<FinalTime>100.0</FinalTime>
