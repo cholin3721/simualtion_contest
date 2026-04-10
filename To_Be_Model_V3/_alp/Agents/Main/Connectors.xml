@@ -1,49 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Connectors>
 	<Connector>
-		<Id>1775468782099</Id>
-		<Name><![CDATA[connector4]]></Name>
-		<X>460</X>
-		<Y>-610</Y>
-		<Label>
-			<X>10</X>
-			<Y>0</Y>
-		</Label>
-		<PublicFlag>false</PublicFlag>
-		<PresentationFlag>true</PresentationFlag>
-		<ShowLabel>false</ShowLabel>
-		<SourceEmbeddedObjectReference>
-			<PackageName>to_be_model_v2</PackageName>
-			<ClassName>Main</ClassName>
-			<ItemName>selectOutput1</ItemName>
-		</SourceEmbeddedObjectReference>
-		<SourceConnectableItemReference>
-			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
-			<ClassName>SelectOutput</ClassName>
-			<ItemName>in</ItemName>
-		</SourceConnectableItemReference>
-		<TargetEmbeddedObjectReference>
-			<PackageName>to_be_model_v2</PackageName>
-			<ClassName>Main</ClassName>
-			<ItemName>selectOutput</ItemName>
-		</TargetEmbeddedObjectReference>
-		<TargetConnectableItemReference>
-			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
-			<ClassName>SelectOutput</ClassName>
-			<ItemName>outT</ItemName>
-		</TargetConnectableItemReference>
-		<Points>
-			<Point>
-				<X>0</X>
-				<Y>0</Y>
-			</Point>
-			<Point>
-				<X>-90</X>
-				<Y>0</Y>
-			</Point>
-		</Points>
-	</Connector>
-	<Connector>
 		<Id>1775468888166</Id>
 		<Name><![CDATA[connector7]]></Name>
 		<X>360</X>
@@ -728,6 +685,49 @@
 			<Point>
 				<X>940</X>
 				<Y>-530</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1775808029985</Id>
+		<Name><![CDATA[connector17]]></Name>
+		<X>460</X>
+		<Y>-610</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>selectOutput1</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>SelectOutput</ClassName>
+			<ItemName>in</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>selectOutput</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>SelectOutput</ClassName>
+			<ItemName>outT</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>-90</X>
+				<Y>0</Y>
 			</Point>
 		</Points>
 	</Connector>
