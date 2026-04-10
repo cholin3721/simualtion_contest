@@ -689,139 +689,10 @@
 		</Points>
 	</Connector>
 	<Connector>
-		<Id>1775809089268</Id>
-		<Name><![CDATA[connector4]]></Name>
-		<X>1215</X>
-		<Y>-560</Y>
-		<Label>
-			<X>10</X>
-			<Y>0</Y>
-		</Label>
-		<PublicFlag>false</PublicFlag>
-		<PresentationFlag>true</PresentationFlag>
-		<ShowLabel>false</ShowLabel>
-		<SourceEmbeddedObjectReference>
-			<PackageName>to_be_model_v2</PackageName>
-			<ClassName>Main</ClassName>
-			<ItemName>select_Palltetizer</ItemName>
-		</SourceEmbeddedObjectReference>
-		<SourceConnectableItemReference>
-			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
-			<ClassName>SelectOutput</ClassName>
-			<ItemName>in</ItemName>
-		</SourceConnectableItemReference>
-		<TargetEmbeddedObjectReference>
-			<PackageName>to_be_model_v2</PackageName>
-			<ClassName>Main</ClassName>
-			<ItemName>queue_Buffer</ItemName>
-		</TargetEmbeddedObjectReference>
-		<TargetConnectableItemReference>
-			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
-			<ClassName>Queue</ClassName>
-			<ItemName>out</ItemName>
-		</TargetConnectableItemReference>
-		<Points>
-			<Point>
-				<X>0</X>
-				<Y>0</Y>
-			</Point>
-			<Point>
-				<X>-65</X>
-				<Y>0</Y>
-			</Point>
-		</Points>
-	</Connector>
-	<Connector>
-		<Id>1775809549264</Id>
-		<Name><![CDATA[connector18]]></Name>
-		<X>1300</X>
-		<Y>-560</Y>
-		<Label>
-			<X>10</X>
-			<Y>0</Y>
-		</Label>
-		<PublicFlag>false</PublicFlag>
-		<PresentationFlag>true</PresentationFlag>
-		<ShowLabel>false</ShowLabel>
-		<SourceEmbeddedObjectReference>
-			<PackageName>to_be_model_v2</PackageName>
-			<ClassName>Main</ClassName>
-			<ItemName>delay_Palletizer</ItemName>
-		</SourceEmbeddedObjectReference>
-		<SourceConnectableItemReference>
-			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
-			<ClassName>Delay</ClassName>
-			<ItemName>in</ItemName>
-		</SourceConnectableItemReference>
-		<TargetEmbeddedObjectReference>
-			<PackageName>to_be_model_v2</PackageName>
-			<ClassName>Main</ClassName>
-			<ItemName>select_Palltetizer</ItemName>
-		</TargetEmbeddedObjectReference>
-		<TargetConnectableItemReference>
-			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
-			<ClassName>SelectOutput</ClassName>
-			<ItemName>outT</ItemName>
-		</TargetConnectableItemReference>
-		<Points>
-			<Point>
-				<X>0</X>
-				<Y>0</Y>
-			</Point>
-			<Point>
-				<X>-65</X>
-				<Y>0</Y>
-			</Point>
-		</Points>
-	</Connector>
-	<Connector>
-		<Id>1775810493495</Id>
-		<Name><![CDATA[connector20]]></Name>
-		<X>1110</X>
-		<Y>-560</Y>
-		<Label>
-			<X>10</X>
-			<Y>0</Y>
-		</Label>
-		<PublicFlag>false</PublicFlag>
-		<PresentationFlag>true</PresentationFlag>
-		<ShowLabel>false</ShowLabel>
-		<SourceEmbeddedObjectReference>
-			<PackageName>to_be_model_v2</PackageName>
-			<ClassName>Main</ClassName>
-			<ItemName>queue_Buffer</ItemName>
-		</SourceEmbeddedObjectReference>
-		<SourceConnectableItemReference>
-			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
-			<ClassName>Queue</ClassName>
-			<ItemName>in</ItemName>
-		</SourceConnectableItemReference>
-		<TargetEmbeddedObjectReference>
-			<PackageName>to_be_model_v2</PackageName>
-			<ClassName>Main</ClassName>
-			<ItemName>select_Palltetizer</ItemName>
-		</TargetEmbeddedObjectReference>
-		<TargetConnectableItemReference>
-			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
-			<ClassName>SelectOutput</ClassName>
-			<ItemName>outF</ItemName>
-		</TargetConnectableItemReference>
-		<Points>
-			<Point>
-				<X>0</X>
-				<Y>0</Y>
-			</Point>
-			<Point>
-				<X>115</X>
-				<Y>10</Y>
-			</Point>
-		</Points>
-	</Connector>
-	<Connector>
 		<Id>1775810722400</Id>
 		<Name><![CDATA[connector21]]></Name>
-		<X>0</X>
-		<Y>0</Y>
+		<X>160</X>
+		<Y>-5</Y>
 		<Label>
 			<X>10</X>
 			<Y>0</Y>
@@ -863,8 +734,8 @@
 	<Connector>
 		<Id>1775810912531</Id>
 		<Name><![CDATA[connector19]]></Name>
-		<X>1475</X>
-		<Y>-615</Y>
+		<X>1635</X>
+		<Y>-620</Y>
 		<Label>
 			<X>10</X>
 			<Y>0</Y>
@@ -906,8 +777,8 @@
 	<Connector>
 		<Id>1775810921380</Id>
 		<Name><![CDATA[connector22]]></Name>
-		<X>1475</X>
-		<Y>-575</Y>
+		<X>1635</X>
+		<Y>-580</Y>
 		<Label>
 			<X>10</X>
 			<Y>0</Y>
@@ -949,8 +820,8 @@
 	<Connector>
 		<Id>1775810945054</Id>
 		<Name><![CDATA[connector23]]></Name>
-		<X>0</X>
-		<Y>0</Y>
+		<X>160</X>
+		<Y>-5</Y>
 		<Label>
 			<X>10</X>
 			<Y>0</Y>
@@ -992,8 +863,8 @@
 	<Connector>
 		<Id>1775810952024</Id>
 		<Name><![CDATA[connector24]]></Name>
-		<X>1475</X>
-		<Y>-490</Y>
+		<X>1635</X>
+		<Y>-495</Y>
 		<Label>
 			<X>10</X>
 			<Y>0</Y>
@@ -1035,8 +906,8 @@
 	<Connector>
 		<Id>1775815979502</Id>
 		<Name><![CDATA[connector25]]></Name>
-		<X>0</X>
-		<Y>0</Y>
+		<X>160</X>
+		<Y>-5</Y>
 		<Label>
 			<X>10</X>
 			<Y>0</Y>
@@ -1078,8 +949,8 @@
 	<Connector>
 		<Id>1775816016987</Id>
 		<Name><![CDATA[connector26]]></Name>
-		<X>1590</X>
-		<Y>-570</Y>
+		<X>1750</X>
+		<Y>-575</Y>
 		<Label>
 			<X>10</X>
 			<Y>0</Y>
@@ -1121,8 +992,8 @@
 	<Connector>
 		<Id>1775816094950</Id>
 		<Name><![CDATA[connector27]]></Name>
-		<X>1515</X>
-		<Y>-530</Y>
+		<X>1675</X>
+		<Y>-535</Y>
 		<Label>
 			<X>10</X>
 			<Y>0</Y>
@@ -1164,8 +1035,8 @@
 	<Connector>
 		<Id>1775816113908</Id>
 		<Name><![CDATA[connector28]]></Name>
-		<X>1515</X>
-		<Y>-615</Y>
+		<X>1675</X>
+		<Y>-620</Y>
 		<Label>
 			<X>10</X>
 			<Y>0</Y>
@@ -1201,53 +1072,6 @@
 			<Point>
 				<X>75</X>
 				<Y>45</Y>
-			</Point>
-		</Points>
-	</Connector>
-	<Connector>
-		<Id>1775818739821</Id>
-		<Name><![CDATA[connector16]]></Name>
-		<X>1060</X>
-		<Y>-610</Y>
-		<Label>
-			<X>10</X>
-			<Y>0</Y>
-		</Label>
-		<PublicFlag>false</PublicFlag>
-		<PresentationFlag>true</PresentationFlag>
-		<ShowLabel>false</ShowLabel>
-		<SourceEmbeddedObjectReference>
-			<PackageName>to_be_model_v2</PackageName>
-			<ClassName>Main</ClassName>
-			<ItemName>convey2</ItemName>
-		</SourceEmbeddedObjectReference>
-		<SourceConnectableItemReference>
-			<PackageName>com.anylogic.libraries.material_handling</PackageName>
-			<ClassName>Convey</ClassName>
-			<ItemName>out</ItemName>
-		</SourceConnectableItemReference>
-		<TargetEmbeddedObjectReference>
-			<PackageName>to_be_model_v2</PackageName>
-			<ClassName>Main</ClassName>
-			<ItemName>queue_Buffer</ItemName>
-		</TargetEmbeddedObjectReference>
-		<TargetConnectableItemReference>
-			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
-			<ClassName>Queue</ClassName>
-			<ItemName>in</ItemName>
-		</TargetConnectableItemReference>
-		<Points>
-			<Point>
-				<X>0</X>
-				<Y>0</Y>
-			</Point>
-			<Point>
-				<X>32</X>
-				<Y>50</Y>
-			</Point>
-			<Point>
-				<X>50</X>
-				<Y>50</Y>
 			</Point>
 		</Points>
 	</Connector>
@@ -1295,8 +1119,51 @@
 		</Points>
 	</Connector>
 	<Connector>
-		<Id>1775824147524</Id>
-		<Name><![CDATA[connector30]]></Name>
+		<Id>1775825967125</Id>
+		<Name><![CDATA[connector4]]></Name>
+		<X>1060</X>
+		<Y>-610</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>convey2</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.material_handling</PackageName>
+			<ClassName>Convey</ClassName>
+			<ItemName>out</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>select_Palltetizer</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>SelectOutput</ClassName>
+			<ItemName>in</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>125</X>
+				<Y>50</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1775825973767</Id>
+		<Name><![CDATA[connector16]]></Name>
 		<X>1030</X>
 		<Y>-530</Y>
 		<Label>
@@ -1319,11 +1186,11 @@
 		<TargetEmbeddedObjectReference>
 			<PackageName>to_be_model_v2</PackageName>
 			<ClassName>Main</ClassName>
-			<ItemName>queue_Buffer</ItemName>
+			<ItemName>select_Palltetizer</ItemName>
 		</TargetEmbeddedObjectReference>
 		<TargetConnectableItemReference>
 			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
-			<ClassName>Queue</ClassName>
+			<ClassName>SelectOutput</ClassName>
 			<ItemName>in</ItemName>
 		</TargetConnectableItemReference>
 		<Points>
@@ -1332,8 +1199,524 @@
 				<Y>0</Y>
 			</Point>
 			<Point>
-				<X>80</X>
+				<X>155</X>
 				<Y>-30</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1775826001377</Id>
+		<Name><![CDATA[connector20]]></Name>
+		<X>1160</X>
+		<Y>-670</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>convey_Loop1</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.material_handling</PackageName>
+			<ClassName>Convey</ClassName>
+			<ItemName>in</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>select_Palltetizer</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>SelectOutput</ClassName>
+			<ItemName>outF</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>35</X>
+				<Y>120</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1775826007807</Id>
+		<Name><![CDATA[connector30]]></Name>
+		<X>1060</X>
+		<Y>-690</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>convey_Loop2</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.material_handling</PackageName>
+			<ClassName>Convey</ClassName>
+			<ItemName>in</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>convey_Loop1</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.material_handling</PackageName>
+			<ClassName>Convey</ClassName>
+			<ItemName>out</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>140</X>
+				<Y>20</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1775826019388</Id>
+		<Name><![CDATA[connector31]]></Name>
+		<X>1185</X>
+		<Y>-560</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>select_Palltetizer</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>SelectOutput</ClassName>
+			<ItemName>in</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>convey_Loop2</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.material_handling</PackageName>
+			<ClassName>Convey</ClassName>
+			<ItemName>out</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>-85</X>
+				<Y>-130</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1775828272580</Id>
+		<Name><![CDATA[connector18]]></Name>
+		<X>0</X>
+		<Y>0</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>Route_to_Pickup</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>SelectOutput5</ClassName>
+			<ItemName>in</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>select_Palltetizer</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>SelectOutput</ClassName>
+			<ItemName>outT</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
+				<X>1250</X>
+				<Y>-560</Y>
+			</Point>
+			<Point>
+				<X>1205</X>
+				<Y>-560</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1775828330336</Id>
+		<Name><![CDATA[connector32]]></Name>
+		<X>0</X>
+		<Y>0</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>convey4</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.material_handling</PackageName>
+			<ClassName>Convey</ClassName>
+			<ItemName>in</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>Route_to_Pickup</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>SelectOutput5</ClassName>
+			<ItemName>out1</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
+				<X>1305</X>
+				<Y>-595</Y>
+			</Point>
+			<Point>
+				<X>1270</X>
+				<Y>-560</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1775828339146</Id>
+		<Name><![CDATA[connector33]]></Name>
+		<X>1305</X>
+		<Y>-555</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>convey5</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.material_handling</PackageName>
+			<ClassName>Convey</ClassName>
+			<ItemName>in</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>Route_to_Pickup</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>SelectOutput5</ClassName>
+			<ItemName>out2</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>-35</X>
+				<Y>15</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1775828345887</Id>
+		<Name><![CDATA[connector34]]></Name>
+		<X>1305</X>
+		<Y>-520</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>convey6</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.material_handling</PackageName>
+			<ClassName>Convey</ClassName>
+			<ItemName>in</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>Route_to_Pickup</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>SelectOutput5</ClassName>
+			<ItemName>out3</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>-35</X>
+				<Y>0</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1775828357361</Id>
+		<Name><![CDATA[connector35]]></Name>
+		<X>1305</X>
+		<Y>-485</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>convey7</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.material_handling</PackageName>
+			<ClassName>Convey</ClassName>
+			<ItemName>in</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>Route_to_Pickup</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>SelectOutput5</ClassName>
+			<ItemName>out4</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>-35</X>
+				<Y>-15</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1775828443722</Id>
+		<Name><![CDATA[connector36]]></Name>
+		<X>1345</X>
+		<Y>-595</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>convey4</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.material_handling</PackageName>
+			<ClassName>Convey</ClassName>
+			<ItemName>out</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>delay_Palletizer</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Delay</ClassName>
+			<ItemName>in</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>115</X>
+				<Y>30</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1775828449182</Id>
+		<Name><![CDATA[connector37]]></Name>
+		<X>1345</X>
+		<Y>-555</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>convey5</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.material_handling</PackageName>
+			<ClassName>Convey</ClassName>
+			<ItemName>out</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>delay_Palletizer</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Delay</ClassName>
+			<ItemName>in</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>115</X>
+				<Y>-10</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1775828455407</Id>
+		<Name><![CDATA[connector38]]></Name>
+		<X>1345</X>
+		<Y>-520</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>convey6</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.material_handling</PackageName>
+			<ClassName>Convey</ClassName>
+			<ItemName>out</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>delay_Palletizer</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Delay</ClassName>
+			<ItemName>in</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>115</X>
+				<Y>-45</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1775828463367</Id>
+		<Name><![CDATA[connector39]]></Name>
+		<X>1345</X>
+		<Y>-485</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>convey7</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.material_handling</PackageName>
+			<ClassName>Convey</ClassName>
+			<ItemName>out</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>to_be_model_v2</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>delay_Palletizer</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Delay</ClassName>
+			<ItemName>in</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>115</X>
+				<Y>-80</Y>
 			</Point>
 		</Points>
 	</Connector>

@@ -2587,9 +2587,109 @@
 						<LineMaterial>null</LineMaterial>
 						<FillMaterial>null</FillMaterial>
 					</ConveyorSpur>
+					<ConveyorSpur>
+						<Id>1775826815401</Id>
+						<Name><![CDATA[conveyorSpur36]]></Name>
+						<X>470</X>
+						<Y>250</Y>
+						<Label>
+							<X>10</X>
+							<Y>0</Y>
+						</Label>
+						<PublicFlag>true</PublicFlag>
+						<PresentationFlag>true</PresentationFlag>
+						<ShowLabel>false</ShowLabel>
+						<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+						<Z>0</Z>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+						<Offset>390.0</Offset>
+						<OnRightSide>false</OnRightSide>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+					</ConveyorSpur>
+					<ConveyorSpur>
+						<Id>1775826828365</Id>
+						<Name><![CDATA[conveyorSpur37]]></Name>
+						<X>490</X>
+						<Y>250</Y>
+						<Label>
+							<X>10</X>
+							<Y>0</Y>
+						</Label>
+						<PublicFlag>true</PublicFlag>
+						<PresentationFlag>true</PresentationFlag>
+						<ShowLabel>false</ShowLabel>
+						<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+						<Z>0</Z>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+						<Offset>370.0</Offset>
+						<OnRightSide>false</OnRightSide>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+					</ConveyorSpur>
+					<ConveyorSpur>
+						<Id>1775826830964</Id>
+						<Name><![CDATA[conveyorSpur38]]></Name>
+						<X>550</X>
+						<Y>250</Y>
+						<Label>
+							<X>10</X>
+							<Y>0</Y>
+						</Label>
+						<PublicFlag>true</PublicFlag>
+						<PresentationFlag>true</PresentationFlag>
+						<ShowLabel>false</ShowLabel>
+						<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+						<Z>0</Z>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+						<Offset>310.0</Offset>
+						<OnRightSide>false</OnRightSide>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+					</ConveyorSpur>
+					<ConveyorSpur>
+						<Id>1775826833056</Id>
+						<Name><![CDATA[conveyorSpur39]]></Name>
+						<X>570</X>
+						<Y>250</Y>
+						<Label>
+							<X>10</X>
+							<Y>0</Y>
+						</Label>
+						<PublicFlag>true</PublicFlag>
+						<PresentationFlag>true</PresentationFlag>
+						<ShowLabel>false</ShowLabel>
+						<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+						<Z>0</Z>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+						<Offset>290.0</Offset>
+						<OnRightSide>false</OnRightSide>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+					</ConveyorSpur>
 				</Presentation>
 			</Conveyor>
-			<Conveyor SourceId="1775469528034">
+			<Conveyor SourceId="1775826815401" TargetId="1775826773455">
 				<Id>1775465684037</Id>
 				<Name><![CDATA[conveyor12]]></Name>
 				<X>470</X>
@@ -2722,22 +2822,22 @@
 					</Point>
 					<Point>
 						<X>0</X>
-						<Y>30</Y>
+						<Y>20</Y>
 						<Z>0</Z>
 					</Point>
 					<Point>
 						<X>0</X>
-						<Y>5</Y>
+						<Y>-5</Y>
 						<Z>0</Z>
 					</Point>
 					<Point>
 						<X>0</X>
-						<Y>30</Y>
+						<Y>20</Y>
 						<Z>0</Z>
 					</Point>
 				</Points>
 			</Conveyor>
-			<Conveyor SourceId="1775469519500">
+			<Conveyor SourceId="1775826828365" TargetId="1775826770930">
 				<Id>1775465700307</Id>
 				<Name><![CDATA[conveyor13]]></Name>
 				<X>490</X>
@@ -2870,22 +2970,22 @@
 					</Point>
 					<Point>
 						<X>0</X>
-						<Y>30</Y>
+						<Y>20</Y>
 						<Z>0</Z>
 					</Point>
 					<Point>
 						<X>0</X>
-						<Y>5</Y>
+						<Y>-5</Y>
 						<Z>0</Z>
 					</Point>
 					<Point>
 						<X>0</X>
-						<Y>5</Y>
+						<Y>-5</Y>
 						<Z>0</Z>
 					</Point>
 				</Points>
 			</Conveyor>
-			<Conveyor SourceId="1775469709461" TargetId="1775469722570">
+			<Conveyor SourceId="1775826833056" TargetId="1775826763301">
 				<Id>1775465727566</Id>
 				<Name><![CDATA[conveyor15]]></Name>
 				<X>570</X>
@@ -3406,9 +3506,259 @@
 						<LineMaterial>null</LineMaterial>
 						<FillMaterial>null</FillMaterial>
 					</ConveyorSpur>
+					<ConveyorSpur>
+						<Id>1775826489606</Id>
+						<Name><![CDATA[conveyorSpur26]]></Name>
+						<X>455</X>
+						<Y>290</Y>
+						<Label>
+							<X>10</X>
+							<Y>0</Y>
+						</Label>
+						<PublicFlag>true</PublicFlag>
+						<PresentationFlag>true</PresentationFlag>
+						<ShowLabel>false</ShowLabel>
+						<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+						<Z>0</Z>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+						<Offset>160.0</Offset>
+						<OnRightSide>false</OnRightSide>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+					</ConveyorSpur>
+					<ConveyorSpur>
+						<Id>1775826493119</Id>
+						<Name><![CDATA[conveyorSpur27]]></Name>
+						<X>505</X>
+						<Y>290</Y>
+						<Label>
+							<X>10</X>
+							<Y>0</Y>
+						</Label>
+						<PublicFlag>true</PublicFlag>
+						<PresentationFlag>true</PresentationFlag>
+						<ShowLabel>false</ShowLabel>
+						<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+						<Z>0</Z>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+						<Offset>110.0</Offset>
+						<OnRightSide>false</OnRightSide>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+					</ConveyorSpur>
+					<ConveyorSpur>
+						<Id>1775826496103</Id>
+						<Name><![CDATA[conveyorSpur28]]></Name>
+						<X>535</X>
+						<Y>290</Y>
+						<Label>
+							<X>10</X>
+							<Y>0</Y>
+						</Label>
+						<PublicFlag>true</PublicFlag>
+						<PresentationFlag>true</PresentationFlag>
+						<ShowLabel>false</ShowLabel>
+						<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+						<Z>0</Z>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+						<Offset>80.0</Offset>
+						<OnRightSide>false</OnRightSide>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+					</ConveyorSpur>
+					<ConveyorSpur>
+						<Id>1775826510371</Id>
+						<Name><![CDATA[conveyorSpur29]]></Name>
+						<X>585</X>
+						<Y>290</Y>
+						<Label>
+							<X>10</X>
+							<Y>0</Y>
+						</Label>
+						<PublicFlag>true</PublicFlag>
+						<PresentationFlag>true</PresentationFlag>
+						<ShowLabel>false</ShowLabel>
+						<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+						<Z>0</Z>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+						<Offset>30.0</Offset>
+						<OnRightSide>false</OnRightSide>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+					</ConveyorSpur>
+					<ConveyorSpur>
+						<Id>1775826754295</Id>
+						<Name><![CDATA[conveyorSpur30]]></Name>
+						<X>470</X>
+						<Y>290</Y>
+						<Label>
+							<X>10</X>
+							<Y>0</Y>
+						</Label>
+						<PublicFlag>true</PublicFlag>
+						<PresentationFlag>true</PresentationFlag>
+						<ShowLabel>false</ShowLabel>
+						<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+						<Z>0</Z>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+						<Offset>145.0</Offset>
+						<OnRightSide>true</OnRightSide>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+					</ConveyorSpur>
+					<ConveyorSpur>
+						<Id>1775826757125</Id>
+						<Name><![CDATA[conveyorSpur31]]></Name>
+						<X>490</X>
+						<Y>290</Y>
+						<Label>
+							<X>10</X>
+							<Y>0</Y>
+						</Label>
+						<PublicFlag>true</PublicFlag>
+						<PresentationFlag>true</PresentationFlag>
+						<ShowLabel>false</ShowLabel>
+						<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+						<Z>0</Z>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+						<Offset>125.0</Offset>
+						<OnRightSide>true</OnRightSide>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+					</ConveyorSpur>
+					<ConveyorSpur>
+						<Id>1775826763301</Id>
+						<Name><![CDATA[conveyorSpur32]]></Name>
+						<X>570</X>
+						<Y>290</Y>
+						<Label>
+							<X>10</X>
+							<Y>0</Y>
+						</Label>
+						<PublicFlag>true</PublicFlag>
+						<PresentationFlag>true</PresentationFlag>
+						<ShowLabel>false</ShowLabel>
+						<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+						<Z>0</Z>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+						<Offset>45.0</Offset>
+						<OnRightSide>true</OnRightSide>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+					</ConveyorSpur>
+					<ConveyorSpur>
+						<Id>1775826765794</Id>
+						<Name><![CDATA[conveyorSpur33]]></Name>
+						<X>550</X>
+						<Y>290</Y>
+						<Label>
+							<X>10</X>
+							<Y>0</Y>
+						</Label>
+						<PublicFlag>true</PublicFlag>
+						<PresentationFlag>true</PresentationFlag>
+						<ShowLabel>false</ShowLabel>
+						<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+						<Z>0</Z>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+						<Offset>65.0</Offset>
+						<OnRightSide>true</OnRightSide>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+					</ConveyorSpur>
+					<ConveyorSpur>
+						<Id>1775826770930</Id>
+						<Name><![CDATA[conveyorSpur34]]></Name>
+						<X>490</X>
+						<Y>290</Y>
+						<Label>
+							<X>10</X>
+							<Y>0</Y>
+						</Label>
+						<PublicFlag>true</PublicFlag>
+						<PresentationFlag>true</PresentationFlag>
+						<ShowLabel>false</ShowLabel>
+						<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+						<Z>0</Z>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+						<Offset>125.0</Offset>
+						<OnRightSide>true</OnRightSide>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+					</ConveyorSpur>
+					<ConveyorSpur>
+						<Id>1775826773455</Id>
+						<Name><![CDATA[conveyorSpur35]]></Name>
+						<X>470</X>
+						<Y>290</Y>
+						<Label>
+							<X>10</X>
+							<Y>0</Y>
+						</Label>
+						<PublicFlag>true</PublicFlag>
+						<PresentationFlag>true</PresentationFlag>
+						<ShowLabel>false</ShowLabel>
+						<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+						<Z>0</Z>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+						<Offset>145.0</Offset>
+						<OnRightSide>true</OnRightSide>
+						<LineColor/>
+						<FillColor>-8355712</FillColor>
+						<LineMaterial>null</LineMaterial>
+						<FillMaterial>null</FillMaterial>
+					</ConveyorSpur>
 				</Presentation>
 			</Conveyor>
-			<Conveyor SourceId="1775469704659" TargetId="1775469733795">
+			<Conveyor SourceId="1775826830964" TargetId="1775826765794">
 				<Id>1775465719439</Id>
 				<Name><![CDATA[conveyor14]]></Name>
 				<X>550</X>
@@ -3704,7 +4054,7 @@
 					</Point>
 				</Points>
 			</Conveyor>
-			<Conveyor SourceId="1775469637908">
+			<Conveyor SourceId="1775826489606">
 				<Id>1775469631958</Id>
 				<Name><![CDATA[conveyor18]]></Name>
 				<X>455</X>
@@ -3852,7 +4202,7 @@
 					</Point>
 				</Points>
 			</Conveyor>
-			<Conveyor SourceId="1775469679226">
+			<Conveyor SourceId="1775826493119">
 				<Id>1775469674066</Id>
 				<Name><![CDATA[conveyor19]]></Name>
 				<X>505</X>
@@ -3985,6 +4335,21 @@
 					</Point>
 					<Point>
 						<X>0</X>
+						<Y>5.2</Y>
+						<Z>0</Z>
+					</Point>
+					<Point>
+						<X>0</X>
+						<Y>-19.8</Y>
+						<Z>0</Z>
+					</Point>
+					<Point>
+						<X>0</X>
+						<Y>30.2</Y>
+						<Z>0</Z>
+					</Point>
+					<Point>
+						<X>0</X>
 						<Y>25</Y>
 						<Z>0</Z>
 					</Point>
@@ -4000,7 +4365,7 @@
 					</Point>
 				</Points>
 			</Conveyor>
-			<Conveyor SourceId="1775469780439">
+			<Conveyor SourceId="1775826496103">
 				<Id>1775469771839</Id>
 				<Name><![CDATA[conveyor21]]></Name>
 				<X>535</X>
@@ -4148,7 +4513,7 @@
 					</Point>
 				</Points>
 			</Conveyor>
-			<Conveyor SourceId="1775469789272">
+			<Conveyor SourceId="1775826510371">
 				<Id>1775469776721</Id>
 				<Name><![CDATA[conveyor22]]></Name>
 				<X>585</X>
