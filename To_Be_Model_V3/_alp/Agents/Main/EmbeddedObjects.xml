@@ -3110,34 +3110,79 @@
 		<QuantityColumn/>
 	</EmbeddedObject>
 	<EmbeddedObject>
-		<Id>1775732696898</Id>
-		<Name><![CDATA[sink1]]></Name>
-		<X>1030</X>
-		<Y>-620</Y>
+		<Id>1775808815332</Id>
+		<Name><![CDATA[queue_Buffer]]></Name>
+		<X>1110</X>
+		<Y>-580</Y>
 		<Label>
-			<X>-10</X>
-			<Y>-20</Y>
+			<X>-5</X>
+			<Y>-10</Y>
 		</Label>
 		<PublicFlag>false</PublicFlag>
 		<PresentationFlag>true</PresentationFlag>
 		<ShowLabel>true</ShowLabel>
 		<ActiveObjectClass>
 			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
-			<ClassName>Sink</ClassName>
+			<ClassName>Queue</ClassName>
 		</ActiveObjectClass>
 		<GenericParameterSubstitute>
 			<GenericParameterSubstituteReference>
 				<PackageName>com.anylogic.libraries.processmodeling</PackageName>
-				<ClassName>Sink</ClassName>
-				<ItemName>1412336242929</ItemName>
+				<ClassName>Queue</ClassName>
+				<ItemName>1412336242932</ItemName>
 			</GenericParameterSubstituteReference>
 		</GenericParameterSubstitute>
 		<Parameters>
 			<Parameter>
+				<Name><![CDATA[capacity]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[maximumCapacity]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[entityLocation]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[queuing]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[priority]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[comparison]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[enableTimeout]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[timeout]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[enablePreemption]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[restoreEntityLocationOnExit]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[forceStatisticsCollection]]></Name>
+			</Parameter>
+			<Parameter>
 				<Name><![CDATA[onEnter]]></Name>
 			</Parameter>
 			<Parameter>
-				<Name><![CDATA[destroyEntity]]></Name>
+				<Name><![CDATA[onAtExit]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onExit]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onExitTimeout]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onExitPreempted]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onRemove]]></Name>
 			</Parameter>
 		</Parameters>
 		<ReplicationFlag>false</ReplicationFlag>
@@ -3157,17 +3202,1074 @@
 		</LocationNameCode>
 		<InitializationType>SPECIFIED_NUMBER</InitializationType>
 		<InitializationDatabaseTableQuery>
-			<Id>1775732696896</Id>
+			<Id>1775808815330</Id>
 			<TableReference/>
 		</InitializationDatabaseTableQuery>
 		<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
 		<QuantityColumn/>
 	</EmbeddedObject>
 	<EmbeddedObject>
-		<Id>1775732699051</Id>
-		<Name><![CDATA[sink2]]></Name>
-		<X>1000</X>
-		<Y>-540</Y>
+		<Id>1775808999557</Id>
+		<Name><![CDATA[selectOutput2]]></Name>
+		<X>80</X>
+		<Y>-670</Y>
+		<Label>
+			<X>-25</X>
+			<Y>-20</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>true</ShowLabel>
+		<ActiveObjectClass>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>SelectOutput</ClassName>
+		</ActiveObjectClass>
+		<GenericParameterSubstitute>
+			<GenericParameterSubstituteReference>
+				<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+				<ClassName>SelectOutput</ClassName>
+				<ItemName>1412336242931</ItemName>
+			</GenericParameterSubstituteReference>
+		</GenericParameterSubstitute>
+		<Parameters>
+			<Parameter>
+				<Name><![CDATA[conditionIsProbabilistic]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[condition]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[probability]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onAtEnter]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[choiceIsVolatile]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onEnter]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onExitTrue]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onExitFalse]]></Name>
+			</Parameter>
+		</Parameters>
+		<ReplicationFlag>false</ReplicationFlag>
+		<Replication Class="CodeValue">
+			<Code><![CDATA[100]]></Code>
+		</Replication>
+		<CollectionType>ARRAY_LIST_BASED</CollectionType>
+		<InitialLocationType>XYZ</InitialLocationType>
+		<ColumnCode Class="CodeValue">
+			<Code><![CDATA[0]]></Code>
+		</ColumnCode>
+		<RowCode Class="CodeValue">
+			<Code><![CDATA[0]]></Code>
+		</RowCode>
+		<LocationNameCode Class="CodeValue">
+			<Code><![CDATA[""]]></Code>
+		</LocationNameCode>
+		<InitializationType>SPECIFIED_NUMBER</InitializationType>
+		<InitializationDatabaseTableQuery>
+			<Id>1775808999555</Id>
+			<TableReference/>
+		</InitializationDatabaseTableQuery>
+		<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+		<QuantityColumn/>
+	</EmbeddedObject>
+	<EmbeddedObject>
+		<Id>1775809003116</Id>
+		<Name><![CDATA[select_Palltetizer]]></Name>
+		<Description><![CDATA[현재 주문을 처리하는 파렛타이저 선택 분기점]]></Description>
+		<X>1205</X>
+		<Y>-570</Y>
+		<Label>
+			<X>-25</X>
+			<Y>-20</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>true</ShowLabel>
+		<ActiveObjectClass>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>SelectOutput</ClassName>
+		</ActiveObjectClass>
+		<GenericParameterSubstitute>
+			<GenericParameterSubstituteReference>
+				<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+				<ClassName>SelectOutput</ClassName>
+				<ItemName>1412336242931</ItemName>
+			</GenericParameterSubstituteReference>
+		</GenericParameterSubstitute>
+		<Parameters>
+			<Parameter>
+				<Name><![CDATA[conditionIsProbabilistic]]></Name>
+				<Value Class="CodeValue">
+					<Code><![CDATA[false]]></Code>
+				</Value>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[condition]]></Name>
+				<Value Class="CodeValue">
+					<Code><![CDATA[java.util.Arrays.stream(slotBranches).anyMatch(b -> b == agent.branchId || b == 0)
+]]></Code>
+				</Value>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[probability]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onAtEnter]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[choiceIsVolatile]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onEnter]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onExitTrue]]></Name>
+				<Value Class="CodeValue">
+					<Code><![CDATA[int remain = branchRemainingTotal.get(agent.branchId) - 1;
+branchRemainingTotal.put(agent.branchId, remain);
+]]></Code>
+				</Value>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onExitFalse]]></Name>
+			</Parameter>
+		</Parameters>
+		<ReplicationFlag>false</ReplicationFlag>
+		<Replication Class="CodeValue">
+			<Code><![CDATA[100]]></Code>
+		</Replication>
+		<CollectionType>ARRAY_LIST_BASED</CollectionType>
+		<InitialLocationType>XYZ</InitialLocationType>
+		<ColumnCode Class="CodeValue">
+			<Code><![CDATA[0]]></Code>
+		</ColumnCode>
+		<RowCode Class="CodeValue">
+			<Code><![CDATA[0]]></Code>
+		</RowCode>
+		<LocationNameCode Class="CodeValue">
+			<Code><![CDATA[""]]></Code>
+		</LocationNameCode>
+		<InitializationType>SPECIFIED_NUMBER</InitializationType>
+		<InitializationDatabaseTableQuery>
+			<Id>1775809003114</Id>
+			<TableReference/>
+		</InitializationDatabaseTableQuery>
+		<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+		<QuantityColumn/>
+	</EmbeddedObject>
+	<EmbeddedObject>
+		<Id>1775809541053</Id>
+		<Name><![CDATA[delay_Palletizer]]></Name>
+		<X>1300</X>
+		<Y>-580</Y>
+		<Label>
+			<X>0</X>
+			<Y>-10</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>true</ShowLabel>
+		<ActiveObjectClass>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Delay</ClassName>
+		</ActiveObjectClass>
+		<GenericParameterSubstitute>
+			<GenericParameterSubstituteReference>
+				<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+				<ClassName>Delay</ClassName>
+				<ItemName>1412336242930</ItemName>
+			</GenericParameterSubstituteReference>
+		</GenericParameterSubstitute>
+		<Parameters>
+			<Parameter>
+				<Name><![CDATA[type]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[delayTime]]></Name>
+				<Value Class="CodeUnitValue">
+					<Code><![CDATA[4]]></Code>
+					<Unit Class="TimeUnits">SECOND</Unit>
+				</Value>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[capacity]]></Name>
+				<Value Class="CodeValue">
+					<Code><![CDATA[2]]></Code>
+				</Value>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[maximumCapacity]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[entityLocation]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[pushProtocol]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[restoreEntityLocationOnExit]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[forceStatisticsCollection]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onEnter]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onAtExit]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onExit]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onRemove]]></Name>
+			</Parameter>
+		</Parameters>
+		<ReplicationFlag>false</ReplicationFlag>
+		<Replication Class="CodeValue">
+			<Code><![CDATA[100]]></Code>
+		</Replication>
+		<CollectionType>ARRAY_LIST_BASED</CollectionType>
+		<InitialLocationType>XYZ</InitialLocationType>
+		<ColumnCode Class="CodeValue">
+			<Code><![CDATA[0]]></Code>
+		</ColumnCode>
+		<RowCode Class="CodeValue">
+			<Code><![CDATA[0]]></Code>
+		</RowCode>
+		<LocationNameCode Class="CodeValue">
+			<Code><![CDATA[""]]></Code>
+		</LocationNameCode>
+		<InitializationType>SPECIFIED_NUMBER</InitializationType>
+		<InitializationDatabaseTableQuery>
+			<Id>1775809541051</Id>
+			<TableReference/>
+		</InitializationDatabaseTableQuery>
+		<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+		<QuantityColumn/>
+	</EmbeddedObject>
+	<EmbeddedObject>
+		<Id>1775809654109</Id>
+		<Name><![CDATA[batch_Palletizer]]></Name>
+		<X>1475</X>
+		<Y>-635</Y>
+		<Label>
+			<X>0</X>
+			<Y>-10</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>true</ShowLabel>
+		<ActiveObjectClass>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Batch</ClassName>
+		</ActiveObjectClass>
+		<GenericParameterSubstitute>
+			<GenericParameterSubstituteReference>
+				<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+				<ClassName>Batch</ClassName>
+				<ItemName>1412336242941</ItemName>
+			</GenericParameterSubstituteReference>
+		</GenericParameterSubstitute>
+		<GenericParameterSubstitute>
+			<GenericParameterSubstituteReference>
+				<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+				<ClassName>Batch</ClassName>
+				<ItemName>1412336242942</ItemName>
+			</GenericParameterSubstituteReference>
+			<GenericParameterSubstituteValue Class="CodeValue">
+				<Code><![CDATA[Agent]]></Code>
+			</GenericParameterSubstituteValue>
+		</GenericParameterSubstitute>
+		<Parameters>
+			<Parameter>
+				<Name><![CDATA[batchSize]]></Name>
+				<Value Class="CodeValue">
+					<Code><![CDATA[batchSizes[0]]]></Code>
+				</Value>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[permanent]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[newBatch]]></Name>
+				<Value Class="EntityCodeValue">
+					<IsAgentEntity>true</IsAgentEntity>
+					<EntityEmbeddedObject>
+						<Id>1775811996171</Id>
+						<GenericParameterSubstitute>
+							<GenericParameterSubstituteReference>
+								<PackageName>to_be_model_v2</PackageName>
+								<ClassName>Box</ClassName>
+								<ItemName>1775468180423</ItemName>
+							</GenericParameterSubstituteReference>
+						</GenericParameterSubstitute>
+						<Parameters>
+							<Parameter>
+								<Name><![CDATA[arrivalTime]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[boxId]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[branchId]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[branchType]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[sSkuCnt]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[sQty]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[aSkuCnt]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[aQty]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[bSkuCnt]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[bQty]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[cSkuCnt]]></Name>
+							</Parameter>
+							<Parameter>
+								<Name><![CDATA[cQty]]></Name>
+							</Parameter>
+						</Parameters>
+						<ReplicationFlag>true</ReplicationFlag>
+						<Replication Class="CodeValue">
+							<Code><![CDATA[100]]></Code>
+						</Replication>
+						<CollectionType>ARRAY_LIST_BASED</CollectionType>
+						<InitialLocationType>XYZ</InitialLocationType>
+						<ColumnCode Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</ColumnCode>
+						<RowCode Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</RowCode>
+						<LocationNameCode Class="CodeValue">
+							<Code><![CDATA[""]]></Code>
+						</LocationNameCode>
+						<InitializationType>LOAD_FROM_DATABASE</InitializationType>
+						<InitializationDatabaseTableQuery>
+							<Id>1775811996172</Id>
+							<TableReference/>
+						</InitializationDatabaseTableQuery>
+						<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+						<QuantityColumn/>
+					</EntityEmbeddedObject>
+				</Value>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[changeDimensions]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[length]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[width]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[height]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[entityLocation]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationType]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationX]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationY]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationZ]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationLatitude]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationLongitude]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationGeoPlaceName]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationXYZInNetwork]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationNetwork]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationLevel]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationNode]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationAttractor]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[speed]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[addToCustomPopulation]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[population]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[pushProtocol]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[restoreEntityLocationOnExit]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[forceStatisticsCollection]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onEnter]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onAdd]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onExit]]></Name>
+				<Value Class="CodeValue">
+					<Code><![CDATA[if (branchRemainingTotal.get(slotBranches[0]) == 0) { slotBranches[0] = 0; }]]></Code>
+				</Value>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onRemove]]></Name>
+			</Parameter>
+		</Parameters>
+		<ReplicationFlag>false</ReplicationFlag>
+		<Replication Class="CodeValue">
+			<Code><![CDATA[100]]></Code>
+		</Replication>
+		<CollectionType>ARRAY_LIST_BASED</CollectionType>
+		<InitialLocationType>XYZ</InitialLocationType>
+		<ColumnCode Class="CodeValue">
+			<Code><![CDATA[0]]></Code>
+		</ColumnCode>
+		<RowCode Class="CodeValue">
+			<Code><![CDATA[0]]></Code>
+		</RowCode>
+		<LocationNameCode Class="CodeValue">
+			<Code><![CDATA[""]]></Code>
+		</LocationNameCode>
+		<InitializationType>SPECIFIED_NUMBER</InitializationType>
+		<InitializationDatabaseTableQuery>
+			<Id>1775809654106</Id>
+			<TableReference/>
+		</InitializationDatabaseTableQuery>
+		<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+		<QuantityColumn/>
+	</EmbeddedObject>
+	<EmbeddedObject>
+		<Id>1775810681143</Id>
+		<Name><![CDATA[selectOutput5]]></Name>
+		<X>1400</X>
+		<Y>-570</Y>
+		<Label>
+			<X>-30</X>
+			<Y>-20</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>true</ShowLabel>
+		<ActiveObjectClass>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>SelectOutput5</ClassName>
+		</ActiveObjectClass>
+		<GenericParameterSubstitute>
+			<GenericParameterSubstituteReference>
+				<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+				<ClassName>SelectOutput5</ClassName>
+				<ItemName>1412336243132</ItemName>
+			</GenericParameterSubstituteReference>
+		</GenericParameterSubstitute>
+		<Parameters>
+			<Parameter>
+				<Name><![CDATA[type]]></Name>
+				<Value Class="CodeValue">
+					<Code><![CDATA[self.TYPE_EXIT_NUMBER]]></Code>
+				</Value>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[condition1]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[condition2]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[condition3]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[condition4]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[probability1]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[probability2]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[probability3]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[probability4]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[probability5]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[exitNumber]]></Name>
+				<Value Class="CodeValue">
+					<Code><![CDATA[((java.util.function.IntSupplier) () -> {
+    int target = -1;
+    for(int i = 0; i < 4; i++){
+        if(slotBranches[i] == agent.branchId) { target = i; break; }
+    }
+    if(target == -1){ 
+        for(int i = 0; i < 4; i++){
+            if(slotBranches[i] == 0) { 
+                 slotBranches[i] = agent.branchId; 
+                 target = i; 
+                 break; 
+            }
+        }
+    }
+    
+    // (변수명 버그를 해결 못해서 variable을 쓰셔야 한다면 batchSizes를 variable로 변경)
+    batchSizes[target] = min(32, branchRemainingTotal.get(agent.branchId) + 1);
+    
+    // 배열 인덱스(0~3)를 이미지에 연결된 실제 물리 포트 번호(1~4)로 변환하여 출력
+    return target + 1;
+}).getAsInt()
+]]></Code>
+				</Value>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[choiceIsVolatile]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onEnter]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onExit1]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onExit2]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onExit3]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onExit4]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onExit5]]></Name>
+			</Parameter>
+		</Parameters>
+		<ReplicationFlag>false</ReplicationFlag>
+		<Replication Class="CodeValue">
+			<Code><![CDATA[100]]></Code>
+		</Replication>
+		<CollectionType>ARRAY_LIST_BASED</CollectionType>
+		<InitialLocationType>XYZ</InitialLocationType>
+		<ColumnCode Class="CodeValue">
+			<Code><![CDATA[0]]></Code>
+		</ColumnCode>
+		<RowCode Class="CodeValue">
+			<Code><![CDATA[0]]></Code>
+		</RowCode>
+		<LocationNameCode Class="CodeValue">
+			<Code><![CDATA[""]]></Code>
+		</LocationNameCode>
+		<InitializationType>SPECIFIED_NUMBER</InitializationType>
+		<InitializationDatabaseTableQuery>
+			<Id>1775810681141</Id>
+			<TableReference/>
+		</InitializationDatabaseTableQuery>
+		<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+		<QuantityColumn/>
+	</EmbeddedObject>
+	<EmbeddedObject>
+		<Id>1775810919660</Id>
+		<Name><![CDATA[batch_Palletizer1]]></Name>
+		<X>1475</X>
+		<Y>-595</Y>
+		<Label>
+			<X>0</X>
+			<Y>-10</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>true</ShowLabel>
+		<ActiveObjectClass>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Batch</ClassName>
+		</ActiveObjectClass>
+		<GenericParameterSubstitute>
+			<GenericParameterSubstituteReference>
+				<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+				<ClassName>Batch</ClassName>
+				<ItemName>1412336242941</ItemName>
+			</GenericParameterSubstituteReference>
+		</GenericParameterSubstitute>
+		<GenericParameterSubstitute>
+			<GenericParameterSubstituteReference>
+				<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+				<ClassName>Batch</ClassName>
+				<ItemName>1412336242942</ItemName>
+			</GenericParameterSubstituteReference>
+		</GenericParameterSubstitute>
+		<Parameters>
+			<Parameter>
+				<Name><![CDATA[batchSize]]></Name>
+				<Value Class="CodeValue">
+					<Code><![CDATA[batchSizes[1]]]></Code>
+				</Value>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[permanent]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[newBatch]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[changeDimensions]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[length]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[width]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[height]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[entityLocation]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationType]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationX]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationY]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationZ]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationLatitude]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationLongitude]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationGeoPlaceName]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationXYZInNetwork]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationNetwork]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationLevel]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationNode]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationAttractor]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[speed]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[addToCustomPopulation]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[population]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[pushProtocol]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[restoreEntityLocationOnExit]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[forceStatisticsCollection]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onEnter]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onAdd]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onExit]]></Name>
+				<Value Class="CodeValue">
+					<Code><![CDATA[if (branchRemainingTotal.get(slotBranches[1]) == 0) { slotBranches[1] = 0; }]]></Code>
+				</Value>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onRemove]]></Name>
+			</Parameter>
+		</Parameters>
+		<ReplicationFlag>false</ReplicationFlag>
+		<Replication Class="CodeValue">
+			<Code><![CDATA[100]]></Code>
+		</Replication>
+		<CollectionType>ARRAY_LIST_BASED</CollectionType>
+		<InitialLocationType>XYZ</InitialLocationType>
+		<ColumnCode Class="CodeValue">
+			<Code><![CDATA[0]]></Code>
+		</ColumnCode>
+		<RowCode Class="CodeValue">
+			<Code><![CDATA[0]]></Code>
+		</RowCode>
+		<LocationNameCode Class="CodeValue">
+			<Code><![CDATA[""]]></Code>
+		</LocationNameCode>
+		<InitializationType>SPECIFIED_NUMBER</InitializationType>
+		<InitializationDatabaseTableQuery>
+			<Id>1775810919658</Id>
+			<TableReference/>
+		</InitializationDatabaseTableQuery>
+		<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+		<QuantityColumn/>
+	</EmbeddedObject>
+	<EmbeddedObject>
+		<Id>1775810925842</Id>
+		<Name><![CDATA[batch_Palletizer2]]></Name>
+		<X>1475</X>
+		<Y>-550</Y>
+		<Label>
+			<X>0</X>
+			<Y>-10</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>true</ShowLabel>
+		<ActiveObjectClass>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Batch</ClassName>
+		</ActiveObjectClass>
+		<GenericParameterSubstitute>
+			<GenericParameterSubstituteReference>
+				<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+				<ClassName>Batch</ClassName>
+				<ItemName>1412336242941</ItemName>
+			</GenericParameterSubstituteReference>
+		</GenericParameterSubstitute>
+		<GenericParameterSubstitute>
+			<GenericParameterSubstituteReference>
+				<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+				<ClassName>Batch</ClassName>
+				<ItemName>1412336242942</ItemName>
+			</GenericParameterSubstituteReference>
+		</GenericParameterSubstitute>
+		<Parameters>
+			<Parameter>
+				<Name><![CDATA[batchSize]]></Name>
+				<Value Class="CodeValue">
+					<Code><![CDATA[batchSizes[2]]]></Code>
+				</Value>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[permanent]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[newBatch]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[changeDimensions]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[length]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[width]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[height]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[entityLocation]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationType]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationX]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationY]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationZ]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationLatitude]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationLongitude]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationGeoPlaceName]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationXYZInNetwork]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationNetwork]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationLevel]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationNode]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationAttractor]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[speed]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[addToCustomPopulation]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[population]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[pushProtocol]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[restoreEntityLocationOnExit]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[forceStatisticsCollection]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onEnter]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onAdd]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onExit]]></Name>
+				<Value Class="CodeValue">
+					<Code><![CDATA[if (branchRemainingTotal.get(slotBranches[2]) == 0) { slotBranches[2] = 0; }]]></Code>
+				</Value>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onRemove]]></Name>
+			</Parameter>
+		</Parameters>
+		<ReplicationFlag>false</ReplicationFlag>
+		<Replication Class="CodeValue">
+			<Code><![CDATA[100]]></Code>
+		</Replication>
+		<CollectionType>ARRAY_LIST_BASED</CollectionType>
+		<InitialLocationType>XYZ</InitialLocationType>
+		<ColumnCode Class="CodeValue">
+			<Code><![CDATA[0]]></Code>
+		</ColumnCode>
+		<RowCode Class="CodeValue">
+			<Code><![CDATA[0]]></Code>
+		</RowCode>
+		<LocationNameCode Class="CodeValue">
+			<Code><![CDATA[""]]></Code>
+		</LocationNameCode>
+		<InitializationType>SPECIFIED_NUMBER</InitializationType>
+		<InitializationDatabaseTableQuery>
+			<Id>1775810925840</Id>
+			<TableReference/>
+		</InitializationDatabaseTableQuery>
+		<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+		<QuantityColumn/>
+	</EmbeddedObject>
+	<EmbeddedObject>
+		<Id>1775810946467</Id>
+		<Name><![CDATA[batch_Palletizer3]]></Name>
+		<X>1475</X>
+		<Y>-510</Y>
+		<Label>
+			<X>0</X>
+			<Y>-10</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>true</ShowLabel>
+		<ActiveObjectClass>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Batch</ClassName>
+		</ActiveObjectClass>
+		<GenericParameterSubstitute>
+			<GenericParameterSubstituteReference>
+				<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+				<ClassName>Batch</ClassName>
+				<ItemName>1412336242941</ItemName>
+			</GenericParameterSubstituteReference>
+		</GenericParameterSubstitute>
+		<GenericParameterSubstitute>
+			<GenericParameterSubstituteReference>
+				<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+				<ClassName>Batch</ClassName>
+				<ItemName>1412336242942</ItemName>
+			</GenericParameterSubstituteReference>
+		</GenericParameterSubstitute>
+		<Parameters>
+			<Parameter>
+				<Name><![CDATA[batchSize]]></Name>
+				<Value Class="CodeValue">
+					<Code><![CDATA[batchSizes[3]]]></Code>
+				</Value>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[permanent]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[newBatch]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[changeDimensions]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[length]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[width]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[height]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[entityLocation]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationType]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationX]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationY]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationZ]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationLatitude]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationLongitude]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationGeoPlaceName]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationXYZInNetwork]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationNetwork]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationLevel]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationNode]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[locationAttractor]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[speed]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[addToCustomPopulation]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[population]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[pushProtocol]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[restoreEntityLocationOnExit]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[forceStatisticsCollection]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onEnter]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onAdd]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onExit]]></Name>
+				<Value Class="CodeValue">
+					<Code><![CDATA[if (branchRemainingTotal.get(slotBranches[3]) == 0) { slotBranches[3] = 0; }]]></Code>
+				</Value>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onRemove]]></Name>
+			</Parameter>
+		</Parameters>
+		<ReplicationFlag>false</ReplicationFlag>
+		<Replication Class="CodeValue">
+			<Code><![CDATA[100]]></Code>
+		</Replication>
+		<CollectionType>ARRAY_LIST_BASED</CollectionType>
+		<InitialLocationType>XYZ</InitialLocationType>
+		<ColumnCode Class="CodeValue">
+			<Code><![CDATA[0]]></Code>
+		</ColumnCode>
+		<RowCode Class="CodeValue">
+			<Code><![CDATA[0]]></Code>
+		</RowCode>
+		<LocationNameCode Class="CodeValue">
+			<Code><![CDATA[""]]></Code>
+		</LocationNameCode>
+		<InitializationType>SPECIFIED_NUMBER</InitializationType>
+		<InitializationDatabaseTableQuery>
+			<Id>1775810946465</Id>
+			<TableReference/>
+		</InitializationDatabaseTableQuery>
+		<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+		<QuantityColumn/>
+	</EmbeddedObject>
+	<EmbeddedObject>
+		<Id>1775815937663</Id>
+		<Name><![CDATA[sink1]]></Name>
+		<X>1590</X>
+		<Y>-580</Y>
 		<Label>
 			<X>-10</X>
 			<Y>-20</Y>
@@ -3211,7 +4313,7 @@
 		</LocationNameCode>
 		<InitializationType>SPECIFIED_NUMBER</InitializationType>
 		<InitializationDatabaseTableQuery>
-			<Id>1775732699049</Id>
+			<Id>1775815937661</Id>
 			<TableReference/>
 		</InitializationDatabaseTableQuery>
 		<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>

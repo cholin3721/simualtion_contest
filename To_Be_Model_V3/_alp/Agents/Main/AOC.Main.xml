@@ -2,15 +2,12 @@
 <ActiveObjectClass>
 	<Id>1775458701936</Id>
 	<Name><![CDATA[Main]]></Name>
-	<StartupCode><![CDATA[// DB의 'sheet1' 테이블을 모두 읽어서 지점(branch_id)별로 총 몇 개의 박스가 있는지 세어 
-// branchRemainingTotal 컬렉션에 저장하는 코드입니다.
-List<Tuple> list = selectFrom(sheet1).select(sheet1.branch_id).list();
-
-for (Tuple t : list) {
-    int bId = t.get(sheet1.branch_id);
-    branchRemainingTotal.put(bId, branchRemainingTotal.getOrDefault(bId, 0) + 1);
-}
-]]></StartupCode>
+	<StartupCode><![CDATA[com.anylogic.engine.connectivity.ResultSet rs = selectResultSet("SELECT branch_id, COUNT(*) AS cnt FROM sheet1 GROUP BY branch_id;");
+try {
+    while(rs.next()) {
+        branchRemainingTotal.put(rs.getInt("branch_id"), rs.getInt("cnt"));
+    }
+} catch (Exception e) {}]]></StartupCode>
 	<Generic>false</Generic>
 	<GenericParameter>
 		<Id>1775458701941</Id>
